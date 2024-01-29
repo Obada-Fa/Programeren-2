@@ -1,0 +1,22 @@
+start session to manage user authentication
+check if user is logged in, redirect to login page if not logged in
+include the database connection
+check if task_id provided, to know which task are we editing
+if task_id exists then:
+    fetch the task data from the database
+    if a task with the same task id is found in the database then
+        store task details in the $task variable
+    if task wasn't found redirect to index
+if a task id not provided then
+    redirect to index
+
+check if the edit form submitted in the post methode
+if form is submitted then
+    get the new task values from the submitted forms(title, description, due date, status)
+    validate / ensure title and due data not empty
+    if validation was successful then:
+        update task info with the new details using the task_id to match with the task_id in the database
+        if update was successful then:
+            redirect to index
+        if update was not successful then:
+            display error

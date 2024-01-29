@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+    margin: 20px;
+}
+
+h1 {
+    color: #ffa500; /* Orange color for h1 */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #444; /* Darker background color for the table */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #666; /* Slightly lighter border color */
+}
+
+th {
+    background-color: #ffa500; /* Orange color for th */
+    color: #222; /* Dark text color */
+}
+
+tr:hover {
+    background-color: #333; /* Darker background color on hover */
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333; /* Dark background color for form */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff; /* Light text color for labels */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    background-color: #444; /* Darker background color for input */
+    color: #fff; /* Light text color for input */
+}
+
+button {
+    background-color: #ffa500; /* Orange color for button */
+    color: #222; /* Dark text color for button */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8c00; /* Darker orange color on hover */
+}
+
+p.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #ffa500; /* Orange color for links */
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #444; /* Darker background color for header */
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+.logout-btn {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    max-height: 5vh;
+}
+
+.logout-btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+.task-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    background-color: #444;
+    color: #fff;
+}
+
+.task-form button {
+    background-color: #ffa500;
+    color: #222;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #ff8c00;
+}
+
+.add-task-link{
+    color: #fff;
+    text-decoration: none;
+}
